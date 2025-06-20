@@ -32,6 +32,3 @@ L’objectif est de prédire si un passager a survécu ou non au naufrage, en ut
 - pandas, seaborn, matplotlib
 - scikit-learn
 
-## Auteur
-
-Projet réalisé par **Flávio Dantas de Sena**, étudiant en Mathématiques Appliquées à Polytech Lyon.
