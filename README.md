@@ -1,32 +1,37 @@
-# TP1 – Classification des champignons
+# TP – Prédiction de survie sur le Titanic
 
 Ce projet a été réalisé dans le cadre d’un travail pratique à Polytech Lyon.  
-L’objectif est de prédire si un champignon est comestible ou non à partir de ses caractéristiques.
+Il s'appuie sur le célèbre défi **Titanic: Machine Learning from Disaster** disponible sur la plateforme **Kaggle**.
 
-Le jeu de données utilisé provient d’un dataset publié sur **Kaggle**, lui-même issu du [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/mushroom).
+L’objectif est de prédire si un passager a survécu ou non au naufrage, en utilisant les informations disponibles dans le dataset (âge, sexe, classe, etc.).
 
 ## Objectifs pédagogiques
 
-- Comprendre les étapes d’un pipeline de classification supervisée
-- Explorer les données (analyse statistique et visualisation)
-- Appliquer des techniques de prétraitement (encodage, normalisation, etc.)
-- Entraîner et évaluer plusieurs modèles de machine learning
+- Comprendre les fondamentaux de la classification supervisée
+- Effectuer une analyse exploratoire des données
+- Nettoyer et prétraiter un jeu de données réel
+- Mettre en œuvre plusieurs modèles de machine learning
+- Comparer les performances des modèles
 
 ## Contenu du repository
 
-- `Champignon.ipynb` : Notebook complet contenant :
-  - L’analyse exploratoire du dataset
-  - La préparation des données (traitement des variables catégorielles, séparation train/test)
-  - L’entraînement de plusieurs modèles (ex. : arbre de décision, KNN…)
-  - L’évaluation des performances (matrice de confusion, précision, etc.)
-- `mushrooms.csv` : Fichier CSV contenant les caractéristiques de différents champignons
+- `tp_1_titanic.ipynb` : Notebook complet avec :
+  - Analyse exploratoire (EDA)
+  - Traitement des valeurs manquantes
+  - Encodage des variables
+  - Entraînement de modèles comme la régression logistique, les arbres de décision, etc.
+  - Évaluation des performances (précision, courbes, etc.)
 
 ## Source des données
 
-- [Mushroom Classification – Kaggle](https://www.kaggle.com/datasets/uciml/mushroom-classification)
+- [Titanic – Machine Learning from Disaster – Kaggle](https://www.kaggle.com/competitions/titanic)
 
 ## Technologies utilisées
 
 - Python 3
-- pandas, matplotlib, seaborn
+- pandas, seaborn, matplotlib
 - scikit-learn
+
+## Auteur
+
+Projet réalisé par **Flávio Dantas de Sena**, étudiant en Mathématiques Appliquées à Polytech Lyon.
